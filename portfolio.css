@@ -1,5 +1,4 @@
 .portfolio-container {
-    border: 1px solid red;
     margin-left: 80px;
     margin-right: 80px;
     display: grid;
@@ -9,56 +8,72 @@
 }   
 
 .single-item1 {
-    border: 1px solid yellow;
     margin: 20px;
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
-    background-size: cover;
+    background-image: url('attache.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: grid;
+    border-radius: 15px;
 
 }
 .single-item2 {
-    border: 1px solid yellow;
     margin: 20px;
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-image: url('programory.png');
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: grid;
+    border-radius: 15px;
 
 }
 .single-item3 {
-    border: 1px solid yellow;
     margin: 20px;
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-image: url('restaurant-app.png');
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: grid;
+    border-radius: 15px;
 
 }
 .single-item4 {
-    border: 1px solid yellow;
     margin: 20px;
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-image: url('namebadges.png');
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: grid;
+    border-radius: 15px;
 
 }
 
-.single-item a {
+.single-item4 div:hover {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.993);
+
 }
 
+.single-item4 div {
+    display: none;
+}
 
+.text {
+    display: none
+}
+
+.text:hover {
+    display: grid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.993);
+    
+}
 
 section:nth-of-type(3) #gallery {
     margin: 20px 0;
