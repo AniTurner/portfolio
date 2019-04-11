@@ -1,0 +1,145 @@
+.portfolio-container {
+    border: 1px solid red;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}   
+
+.single-item1 {
+    border: 1px solid yellow;
+    margin: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+
+}
+.single-item2 {
+    border: 1px solid yellow;
+    margin: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+
+}
+.single-item3 {
+    border: 1px solid yellow;
+    margin: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+
+}
+.single-item4 {
+    border: 1px solid yellow;
+    margin: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+
+}
+
+.single-item a {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+section:nth-of-type(3) #gallery {
+    margin: 20px 0;
+}
+section:nth-of-type(3) .container {
+    padding: 0;
+}
+.flex.wrap {
+    flex-wrap: wrap;
+}
+.flex.row {
+    flex-direction: row;
+}
+section .container {
+    padding: 0 10px;
+}
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0 20px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+
+section {
+    line-height: 18pt;
+    padding: 100px 0 130px 0;
+}
+section {
+    padding: 70px 0 70px 0;
+    color: #616161;
+    line-height: 11pt;
+    position: relative;
+}
+
+body {
+    font-size: 12pt;
+}
+body {
+    color: #fff;
+    font-family: 'Raleway';
+    text-align: center;
+    margin: 0px;
+    font-size: 8pt;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
+    background: url('https://programory-app.herokuapp.com/') center center/cover;
+}
+
+section:nth-of-type(3) #gallery .mix .card {
+    width: 390px;
+}
+
+section:nth-of-type(3) #gallery .text, section:nth-of-type(3) #gallery .button {
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    color: #1B242F;
+}
+
+section:nth-of-type(3) .text {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
